@@ -1,0 +1,2 @@
+# aboutBox
+AboutBox component
