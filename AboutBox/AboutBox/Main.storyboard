@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="41n-gr-3T6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Parent View Controller-->
+        <scene sceneID="1hs-6a-iuo">
+            <objects>
+                <viewController id="41n-gr-3T6" customClass="ParentViewController" customModule="AboutBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WNf-79-bqE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="puo-d0-lfi">
+                                <rect key="frame" x="64" y="237" width="260" height="30"/>
+                                <color key="backgroundColor" red="0.91367608308792114" green="0.71334743499755859" blue="0.31010541319847107" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Call About box"/>
+                                <connections>
+                                    <action selector="btnClk:" destination="41n-gr-3T6" eventType="touchUpInside" id="8E7-GU-WKn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="puo-d0-lfi" firstAttribute="leading" secondItem="4Sc-8u-Qau" secondAttribute="leading" constant="64" id="0QP-Gw-Tbc"/>
+                            <constraint firstItem="4Sc-8u-Qau" firstAttribute="trailing" secondItem="puo-d0-lfi" secondAttribute="trailing" constant="51" id="ert-ye-cd5"/>
+                            <constraint firstItem="puo-d0-lfi" firstAttribute="top" secondItem="4Sc-8u-Qau" secondAttribute="top" constant="217" id="hrB-09-zSG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4Sc-8u-Qau"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wvq-va-zz1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.4" y="-327.88605697151428"/>
+        </scene>
+    </scenes>
+</document>
