@@ -1,4 +1,4 @@
-# aboutBox
+# AboutBox
 AboutBox component is the simplest form of componwent. no external classes.
 this is to demo the way to call aboutbox component.
 1- aboutbox itself acts as a blackbox.
